@@ -1,0 +1,158 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2a0000;
+    color: #dccfc4;
+  }
+  
+  .tela-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header {
+    background-color: #2a0000;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    color: #dccfc4;
+    text-decoration: none;
+  }
+  
+  .cart {
+    width: 24px;
+  }
+  
+  .main-section {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .spaghetti{
+    width: 486px;
+    height: 521px;
+    top: 06px;
+    left: 17px;
+    gap: 0px;
+    opacity: 0px;
+    
+  }
+   .image{
+    width: 519px;
+  height: 571px;
+  top: 1203px;
+  left: 67px;
+  gap: 0px;
+  border-radius: 10px 0px 0px 0px;
+  opacity: 0px;
+  
+   } .vinho{
+    width: 601px;
+  height: 722px;
+  top: 1996px;
+  left: 768px;
+  gap: 0px;
+  border-radius: 10px 0px 0px 0px;
+  opacity: 0px;
+  
+   }.image-2 {width: 921px;
+    height: 1447px;
+    top: 2834px;
+    left: 1447px;
+    gap: 0px;
+    opacity: 0px;
+  
+    
+  }
+  
+  .rectangle {
+    background-color: #02020e;
+    height: 1px;
+    width: 100%;
+  }
+  .main-section h2 {
+   
+      font-family: "Literata", sans-serif;  
+      font-size: 110px;  
+      font-weight: 400;
+      line-height: 163.35px;
+      text-align: center; 
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+    
+  h3 {
+    margin-top: 20px;
+  }
+  
+  p {
+    text-align: justify;
+    margin: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 10px 0;
+  }
+  
+  .reservation {
+    background-color: #02020e;
+    padding: 20px;
+    width: 100%;
+    margin-top: 30px;
+  }
+  
+  .reservation input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #dccfc4;
+    border: none;
+  }
+  
+  .reservation button {
+    padding: 10px;
+    background-color: #02020e;
+    color: #dccfc4;
+    border: none;
+    width: 100%;
+  }
+  
+  footer {
+    background-color: #2a0000;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  footer nav a {
+    color: #ffffff99;
+    margin: 0 10px;
+  }
+  
+  footer .logo-riviera, footer .vector {
+    width: 50px;
+    object-fit: cover;
+    margin: 10px;
+  }
